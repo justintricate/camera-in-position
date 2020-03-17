@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    margin: 30 0 0 0;
+}
+#map_thumbs{
+    -webkit-column-width: 250px;
+    -moz-column-width: 250px;
+    -o-column-width: 250px;
+    -ms-column-width: 250px;
+    column-width: 250px;
+    
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+    -o-column-rule-style: solid;
+    -ms-column-rule-style: solid;
+    column-rule-style: solid;
+}
+#map_thumbs li{
+    display: inline-block;
+}
