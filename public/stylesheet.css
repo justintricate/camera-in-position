@@ -1,12 +1,18 @@
+body {
+    background-color: #333333;
+}
 h1{
     text-align: center;
-    margin: 30 0 0 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 450px;
+    font-size: 50px;
+    color:#f2f2f2;
 }
 #map_thumbs{
-    columns: 250px 4;
-    column-gap: 10px;
+    columns: 400px 4;
+    column-gap: 5px;
     list-style-type: none;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }
 #map_thumbs li{
@@ -15,15 +21,22 @@ h1{
     text-align: center;
     display: inline-block;
 }
+#map_thumbs img{
+    width: 400px;
+    height: 225px;
+    overflow: hidden;
+    border: 3px solid black;
+}
 p {
     position: absolute;
-    top: 200px;
+    top: 112px;
     left: 0;
     width: 100%;
 }
 p span { 
     color: white; 
-    font: bold 32px/48px Helvetica, Sans-Serif; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
     width: 250px;
