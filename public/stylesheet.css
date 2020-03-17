@@ -41,3 +41,22 @@ p span {
     padding: 10px;
     width: 250px;
  }
+ #points{
+    columns: 400px 2;
+    column-gap: 5px;
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+#points li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+#points img{
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border: 3px solid black;
+}
