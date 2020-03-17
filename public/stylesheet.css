@@ -3,18 +3,28 @@ h1{
     margin: 30 0 0 0;
 }
 #map_thumbs{
-    -webkit-column-width: 250px;
-    -moz-column-width: 250px;
-    -o-column-width: 250px;
-    -ms-column-width: 250px;
-    column-width: 250px;
-    
-    -webkit-column-rule-style: solid;
-    -moz-column-rule-style: solid;
-    -o-column-rule-style: solid;
-    -ms-column-rule-style: solid;
-    column-rule-style: solid;
+    columns: 250px 4;
+    column-gap: 10px;
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
 }
 #map_thumbs li{
+    position: relative;
+    width: 100%;
+    text-align: center;
     display: inline-block;
 }
+p {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+p span { 
+    color: white; 
+    font: bold 32px/48px Helvetica, Sans-Serif; 
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 250px;
+ }
