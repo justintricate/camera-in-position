@@ -37,7 +37,7 @@ header::after {
     left: 0;
     bottom: 0;
     vertical-align: bottom;
-    border: 0;
+    padding-top: 1px;
 }
 .home {
     float: left;
@@ -76,9 +76,9 @@ nav li {
     border: 0px solid black;
 }
 #map_thumbs{
-    -webkit-columns: 4 100px;
-    -moz-columns: 4 100px;
-    columns: 4 100px;
+    -webkit-columns: 4 300px;
+    -moz-columns: 4 300px;
+    columns: 4 300px;
     list-style-type: none;
     padding-inline-start: 0px;
     column-gap: 4px;
@@ -96,14 +96,14 @@ nav li {
 }
 p {
     position: absolute;
-    top: 50%;
+    top: 40%;
     bottom: 50%;
     left: 0;
     right: 0;
     width: 100%;
     color: white;
     font-family: 'PT Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 h2 {
         color: white;
