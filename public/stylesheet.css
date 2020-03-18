@@ -5,26 +5,70 @@ h1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: 450px;
-    font-size: 50px;
-    color:#f2f2f2;
+    font-size: 58px;
+    color:#292825;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+.container{
+    width: 99%;
+    position: absolute;
+}
+header {
+    background: #c39100;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: right;
+    height: 150px;
+    width: auto;
+    padding: 0 10px;
+}
+.home {
+    float: left;
+    height: 55px;
+    width: auto;
+    padding: 0px 10px;
+    margin-top: 90px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin-left: 70px;
+    padding-top: 65px;
+    position: relative;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.map_list{
+    max-width: 3840px;
 }
 #map_thumbs{
-    columns: 400px 4;
-    column-gap: 5px;
+    -webkit-columns: 4 100px;
+    -moz-columns: 4 150px;
+    columns: 4 100x;
     list-style-type: none;
-    padding: 0px;
-    text-align: center;
 }
 #map_thumbs li{
     position: relative;
     width: 100%;
     text-align: center;
-    display: inline-block;
 }
 #map_thumbs img{
-    width: 400px;
-    height: 225px;
-    overflow: hidden;
     border: 3px solid black;
 }
 p {
