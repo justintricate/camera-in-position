@@ -136,8 +136,13 @@ p span {
     overflow: hidden;
     border: 3px solid black;
 }
+.pointall a{
+    text-decoration: none;
+}
 .thumbnail {
-    max-width: 33%;
+    max-width: 32%;
+    border: solid #000;
+    border-width: 3px;
   }
   /** LIGHTBOX MARKUP **/
   
@@ -153,12 +158,12 @@ p span {
       text-align: center;
       top: 0;
       left: 0;
-      background: rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.9);
   }
   
   .lightbox img {
       /** Pad the lightbox image */
-      max-width: 100%;
+      max-width: 95%;
       max-height: 80%;
       margin-top: 2%;
   }
