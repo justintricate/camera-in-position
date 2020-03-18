@@ -5,13 +5,13 @@ h1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: 450px;
-    font-size: 58px;
+    font-size: 4vw;
     color:#292825;
     padding-top: 16px;
     padding-right: 10px;
 }
 .container{
-    width: 99%;
+    width: 98%;
     position: absolute;
 }
 header {
@@ -49,19 +49,24 @@ nav li {
     padding-top: 65px;
     position: relative;
 }
-nav a {
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-}
 .map_list{
     max-width: 3840px;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0px solid black;
 }
 #map_thumbs{
     -webkit-columns: 4 100px;
-    -moz-columns: 4 150px;
-    columns: 4 100x;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
     list-style-type: none;
+    padding-inline-start: 0px;
+    column-gap: 4px;
 }
 #map_thumbs li{
     position: relative;
@@ -69,26 +74,33 @@ nav a {
     text-align: center;
 }
 #map_thumbs img{
-    border: 3px solid black;
+    border: 4px solid black;
+    width: 98%;
+    margin: 0;
+    padding 1px;
 }
 p {
     position: absolute;
-    top: 112px;
+    top: 50%;
+    bottom: 50%;
     left: 0;
+    right: 0;
     width: 100%;
     color: white;
     font-family: 'PT Sans', sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
 }
 h2 {
         color: white;
         font-family: 'PT Sans', sans-serif;
-        font-size: 32px;
+        font-size: 2vw;
+        margin: 20px 0px 4px 0px;
 }
 p span { 
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
     width: 250px;
+    position: relative;
  }
  #points{
     columns: 400px 2;
@@ -112,10 +124,6 @@ p span {
 .thumbnail {
     max-width: 33%;
   }
-  
-  .italic { font-style: italic; }
-  .small { font-size: 0.8em; }
-  
   /** LIGHTBOX MARKUP **/
   
   .lightbox {
@@ -135,7 +143,7 @@ p span {
   
   .lightbox img {
       /** Pad the lightbox image */
-      max-width: 90%;
+      max-width: 100%;
       max-height: 80%;
       margin-top: 2%;
   }
